@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 /**
 *main- Entry point
 *
@@ -17,10 +17,5 @@ printf('size of int: %lu byte\n', (unsigned long)sizeof(a));
 printf("size of long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("size of float: %lu bytes\n", (unsigned long)sizeof(f));
 printf("size of long int:%lu byte\n", (unsigned long)sizeof(b));
-printf("size of a char :%zu bytes\n", (unsigned long)sizeof(d));
-printf("size of int: %zu bytes \n", sizeof(a));
-printf("size of long long int :%zu bytes\n", sizeof(c));
-printf("size of float:%zu bytes\," sizeof(f));
-printf("size of a car :%zu bytes\n", sizeof(d));
 return (0);
 }
