@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<main.h>
 /**
  *main - check the code.
  *
@@ -8,8 +8,8 @@ int main(void)
 {
 char c;
 c = 'A';
-printf("%c: %d\n", c, isupper(c));
+_putchar (c, isupper(c));
 c = 'a';
-printf("%c; %d\n", c, isupper(c));
+_putchar(c, isupper(c));
 return (0);
 }
